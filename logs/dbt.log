@@ -1,0 +1,171 @@
+[0m10:07:01.809243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C1BEBE56D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C1BEBE4C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C1BD64D050>]}
+
+
+============================== 10:07:01.829644 | c9f3bf63-9951-436d-a02d-a75d2750deb7 ==============================
+[0m10:07:01.829644 [info ] [MainThread]: Running with dbt=1.11.9
+[0m10:07:01.832013 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\nbalakri\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init acme_mortgage', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:07:01.848480 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\nbalakri\.dbt
+[0m10:07:01.851525 [debug] [MainThread]: Starter project path: C:\Users\nbalakri\OneDrive - Actian Software\Documents\AgenticAI\dbt\venv\Lib\site-packages\dbt\include\starter_project
+[0m10:07:01.874069 [info ] [MainThread]: 
+Your new dbt project "acme_mortgage" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:07:01.875703 [info ] [MainThread]: Setting up your profile.
+[0m10:07:56.442984 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m10:07:56.442984 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m10:07:56.442984 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m10:11:01.916542 [info ] [MainThread]: Profile acme_mortgage written to C:\Users\nbalakri\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:11:01.919545 [debug] [MainThread]: Command `dbt init` succeeded at 10:11:01.918546 after 240.20 seconds
+[0m10:11:01.919545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C1BEC126D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C1B6FE96D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C1BEC4F990>]}
+[0m10:11:01.920826 [debug] [MainThread]: Flushing usage events
+[0m10:11:03.096772 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:11:19.356667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A430485D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A43057B310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A4317F78D0>]}
+
+
+============================== 10:11:19.359650 | 16953b23-b2cb-4653-8b5f-017709c568a7 ==============================
+[0m10:11:19.359650 [info ] [MainThread]: Running with dbt=1.11.9
+[0m10:11:19.361191 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\nbalakri\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:11:19.370710 [info ] [MainThread]: dbt version: 1.11.9
+[0m10:11:19.372218 [info ] [MainThread]: python version: 3.11.9
+[0m10:11:19.373229 [info ] [MainThread]: python path: C:\Users\nbalakri\OneDrive - Actian Software\Documents\AgenticAI\dbt\venv\Scripts\python.exe
+[0m10:11:19.373229 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m10:11:19.665859 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m10:11:19.665859 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m10:11:19.666855 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m10:11:19.711514 [info ] [MainThread]: Using profiles dir at C:\Users\nbalakri\.dbt
+[0m10:11:19.712598 [info ] [MainThread]: Using profiles.yml file at C:\Users\nbalakri\.dbt\profiles.yml
+[0m10:11:19.713135 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\nbalakri\OneDrive - Actian Software\Documents\AgenticAI\dbt\dbt_project.yml
+[0m10:11:19.714778 [info ] [MainThread]: adapter type: snowflake
+[0m10:11:19.715858 [info ] [MainThread]: adapter version: 1.11.4
+[0m10:11:19.716961 [info ] [MainThread]: Configuration:
+[0m10:11:19.717503 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:11:19.718045 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:11:19.718575 [info ] [MainThread]: Required dependencies:
+[0m10:11:19.719119 [debug] [MainThread]: Executing "git --help"
+[0m10:11:19.742757 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:11:19.744263 [debug] [MainThread]: STDERR: "b''"
+[0m10:11:19.744263 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:11:19.745583 [info ] [MainThread]: Connection:
+[0m10:11:19.745583 [info ] [MainThread]:   account: pqtovqc-wf58197
+[0m10:11:19.745583 [info ] [MainThread]:   user: flakessnow
+[0m10:11:19.747091 [info ] [MainThread]:   database: ACME_BANK
+[0m10:11:19.748105 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m10:11:19.748105 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m10:11:19.748105 [info ] [MainThread]:   schema: MORTGAGE_ANALYTICS_PUBLIC
+[0m10:11:19.750036 [info ] [MainThread]:   authenticator: None
+[0m10:11:19.750036 [info ] [MainThread]:   oauth_client_id: None
+[0m10:11:19.751052 [info ] [MainThread]:   query_tag: None
+[0m10:11:19.751559 [info ] [MainThread]:   client_session_keep_alive: False
+[0m10:11:19.752867 [info ] [MainThread]:   host: None
+[0m10:11:19.753867 [info ] [MainThread]:   port: None
+[0m10:11:19.754494 [info ] [MainThread]:   proxy_host: None
+[0m10:11:19.754494 [info ] [MainThread]:   proxy_port: None
+[0m10:11:19.756008 [info ] [MainThread]:   protocol: None
+[0m10:11:19.756008 [info ] [MainThread]:   connect_retries: 1
+[0m10:11:19.757015 [info ] [MainThread]:   connect_timeout: None
+[0m10:11:19.757015 [info ] [MainThread]:   retry_on_database_errors: False
+[0m10:11:19.758017 [info ] [MainThread]:   retry_all: False
+[0m10:11:19.758017 [info ] [MainThread]:   insecure_mode: False
+[0m10:11:19.759524 [info ] [MainThread]:   reuse_connections: True
+[0m10:11:19.760532 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m10:11:19.760532 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m10:11:19.761533 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m10:11:19.977426 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m10:11:20.023595 [debug] [MainThread]: Using snowflake connection "debug"
+[0m10:11:20.023595 [debug] [MainThread]: On debug: select 1 as id
+[0m10:11:20.023595 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:11:20.812429 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.787 seconds
+[0m10:11:20.812429 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:11:20.813942 [info ] [MainThread]: [31m1 check failed:[0m
+[0m10:11:20.814960 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\nbalakri\OneDrive - Actian Software\Documents\AgenticAI\dbt\dbt_project.yml> not found
+
+[0m10:11:20.815960 [debug] [MainThread]: Command `dbt debug` failed at 10:11:20.815960 after 1.58 seconds
+[0m10:11:20.815960 [debug] [MainThread]: Connection 'debug' was left open.
+[0m10:11:20.815960 [debug] [MainThread]: On debug: Close
+[0m10:11:20.959379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A431826390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A431826910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A432C20610>]}
+[0m10:11:20.960391 [debug] [MainThread]: Flushing usage events
+[0m10:11:22.272806 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:13:35.084742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A326C34610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A32A44AC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A32B51D990>]}
+
+
+============================== 10:13:35.088796 | a76e98a6-05b7-48f0-8224-e3a30e481223 ==============================
+[0m10:13:35.088796 [info ] [MainThread]: Running with dbt=1.11.9
+[0m10:13:35.090316 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\nbalakri\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m10:13:35.101011 [info ] [MainThread]: dbt version: 1.11.9
+[0m10:13:35.102028 [info ] [MainThread]: python version: 3.11.9
+[0m10:13:35.102540 [info ] [MainThread]: python path: C:\Users\nbalakri\OneDrive - Actian Software\Documents\AgenticAI\dbt\venv\Scripts\python.exe
+[0m10:13:35.103864 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m10:13:35.389914 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m10:13:35.389914 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m10:13:35.390930 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m10:13:35.438507 [info ] [MainThread]: Using profiles dir at C:\Users\nbalakri\.dbt
+[0m10:13:35.439580 [info ] [MainThread]: Using profiles.yml file at C:\Users\nbalakri\.dbt\profiles.yml
+[0m10:13:35.440668 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\nbalakri\OneDrive - Actian Software\Documents\AgenticAI\dbt\dbt_project.yml
+[0m10:13:35.440668 [info ] [MainThread]: adapter type: snowflake
+[0m10:13:35.441684 [info ] [MainThread]: adapter version: 1.11.4
+[0m10:13:35.442738 [info ] [MainThread]: Configuration:
+[0m10:13:35.443267 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:13:35.444277 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:13:35.445019 [info ] [MainThread]: Required dependencies:
+[0m10:13:35.446033 [debug] [MainThread]: Executing "git --help"
+[0m10:13:35.473799 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m10:13:35.475313 [debug] [MainThread]: STDERR: "b''"
+[0m10:13:35.475313 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:13:35.476223 [info ] [MainThread]: Connection:
+[0m10:13:35.476728 [info ] [MainThread]:   account: pqtovqc-wf58197
+[0m10:13:35.477954 [info ] [MainThread]:   user: flakessnow
+[0m10:13:35.477954 [info ] [MainThread]:   database: ACME_BANK
+[0m10:13:35.478970 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m10:13:35.480011 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m10:13:35.480011 [info ] [MainThread]:   schema: MORTGAGE_ANALYTICS_PUBLIC
+[0m10:13:35.481021 [info ] [MainThread]:   authenticator: None
+[0m10:13:35.482058 [info ] [MainThread]:   oauth_client_id: None
+[0m10:13:35.482579 [info ] [MainThread]:   query_tag: None
+[0m10:13:35.482579 [info ] [MainThread]:   client_session_keep_alive: False
+[0m10:13:35.484131 [info ] [MainThread]:   host: None
+[0m10:13:35.485046 [info ] [MainThread]:   port: None
+[0m10:13:35.485567 [info ] [MainThread]:   proxy_host: None
+[0m10:13:35.485567 [info ] [MainThread]:   proxy_port: None
+[0m10:13:35.487245 [info ] [MainThread]:   protocol: None
+[0m10:13:35.488261 [info ] [MainThread]:   connect_retries: 1
+[0m10:13:35.488770 [info ] [MainThread]:   connect_timeout: None
+[0m10:13:35.489780 [info ] [MainThread]:   retry_on_database_errors: False
+[0m10:13:35.490287 [info ] [MainThread]:   retry_all: False
+[0m10:13:35.490287 [info ] [MainThread]:   insecure_mode: False
+[0m10:13:35.491854 [info ] [MainThread]:   reuse_connections: True
+[0m10:13:35.492435 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m10:13:35.493963 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m10:13:35.494975 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m10:13:35.754647 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m10:13:35.801018 [debug] [MainThread]: Using snowflake connection "debug"
+[0m10:13:35.801018 [debug] [MainThread]: On debug: select 1 as id
+[0m10:13:35.802025 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:13:36.462373 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.661 seconds
+[0m10:13:36.463877 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:13:36.465108 [info ] [MainThread]: [31m1 check failed:[0m
+[0m10:13:36.466103 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\nbalakri\OneDrive - Actian Software\Documents\AgenticAI\dbt\dbt_project.yml> not found
+
+[0m10:13:36.466701 [debug] [MainThread]: Command `dbt debug` failed at 10:13:36.466701 after 1.48 seconds
+[0m10:13:36.466701 [debug] [MainThread]: Connection 'debug' was left open.
+[0m10:13:36.467718 [debug] [MainThread]: On debug: Close
+[0m10:13:36.560234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A32C9702D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A32B53CA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A32CE40350>]}
+[0m10:13:36.560846 [debug] [MainThread]: Flushing usage events
+[0m10:13:37.716119 [debug] [MainThread]: An error was encountered while trying to flush usage events
