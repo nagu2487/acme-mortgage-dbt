@@ -5,7 +5,7 @@ WITH customers AS (
         fullname,
         customersince,
         customersegment
-    FROM ACMEBANK.ACME_MORTGAGE.customers
+    FROM ACMEBANK.MORTGAGE_ANALYTICS_PUBLIC.customers
 
 ),
 
@@ -18,7 +18,7 @@ credit_profiles AS (
         annualincome,
         debttoincomeratio,
         maxborrowingcapacity
-    FROM ACMEBANK.ACME_MORTGAGE.creditprofiles
+    FROM ACMEBANK.MORTGAGE_ANALYTICS_PUBLIC.creditprofiles
 
 ),
 
@@ -30,7 +30,7 @@ loan_applications AS (
         applicationstatus,
         loantype,
         lvr
-    FROM ACMEBANK.ACME_MORTGAGE.loanapplications
+    FROM ACMEBANK.MORTGAGE_ANALYTICS_PUBLIC.loanapplications
 
 ),
 
@@ -40,7 +40,7 @@ product_holdings AS (
         customerid,
         COUNT(productid) AS total_products,
         SUM(balance) AS total_balance
-    FROM ACMEBANK.ACME_MORTGAGE.productholdings
+    FROM ACMEBANK.MORTGAGE_ANALYTICS_PUBLIC.productholdings
     GROUP BY customerid
 
 )
